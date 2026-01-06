@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='application',
             name='hash_client_secret',
-            field=models.BooleanField(default=True),
+            field=models.BooleanField(default=False),
         ),
     ]
